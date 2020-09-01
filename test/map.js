@@ -1,6 +1,6 @@
 'use strict';
 
-const Graph = require('./WeightedGraph');
+const Graph = require('../lib/');
 
 
 let map = new Graph();
@@ -27,4 +27,4 @@ map.addEdge('Insomnia', 'Starbucks', 6);
 map.addEdge('Starbucks', 'Dubliner', 6);
 
 
-console.log(map.findPath('Fullstack', 'Insomnia'));
+console.log(map.findPath('Fullstack', 'Caffe'));
