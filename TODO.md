@@ -1,0 +1,3 @@
+- Add tests
+- Convert to TypeScript
+- Add visualization with react
