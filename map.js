@@ -27,4 +27,4 @@ map.addEdge('Insomnia', 'Starbucks', 6);
 map.addEdge('Starbucks', 'Dubliner', 6);
 
 
-map.findPath('Fullstack', 'Insomnia');
+console.log(map.findPath('Fullstack', 'Insomnia'));
