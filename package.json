@@ -2,11 +2,19 @@
   "name": "@gouc/dijikostra",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/",
+  "main": "./lib/index.js",
+  "files": ["/lib", "/dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:prod": "webpack --progress --config ./webpack.config.js --mode='production'",
+    "webpack:dev": "webpack --progress --config ./webpack.config.js --mode='development'",
+    "prepublishOnly": "npm run webpack:prod"
   },
   "keywords": [],
   "author": "Gonzalo Uceda",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
