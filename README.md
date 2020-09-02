@@ -18,7 +18,7 @@ npm ci
 
 ## Testing ⚙️
 
-[TBREVIEWED] To run the test suite that can be found at the test folder, please run the command:
+To run the test suite that can be found at the test folder, please run the command:
 
 ```sh
 npm run test
