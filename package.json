@@ -1,9 +1,12 @@
 {
   "name": "@gouc/dijikostra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
-  "files": ["/lib", "/dist"],
+  "files": [
+    "/lib",
+    "/dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack:prod": "webpack --progress --config ./webpack.config.js --mode='production'",
