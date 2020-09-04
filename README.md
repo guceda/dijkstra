@@ -16,6 +16,28 @@ npm ci
 
 ```
 
+## Usage
+
+```sh
+const Graph = require('../lib/');
+const generateMesh = require('../lib/mesh');
+
+# Generate initial graph.
+let graph = new Graph();
+# Create a square mesh with all conections.
+generateMesh(graph, 10, 10, true);
+
+# Example on how to delete a certain node.
+graph.deleteNode('4-4');
+
+# Calculate path.
+const path = graph.findPath('0-0', '8-6');
+console.log(path);
+
+
+```
+
+
 ## Testing ⚙️
 
 To run the test suite that can be found at the test folder, please run the command:
