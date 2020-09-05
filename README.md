@@ -19,8 +19,8 @@ npm ci
 ## Usage
 
 ```sh
-const Graph = require('../lib/');
-const generateMesh = require('../lib/mesh');
+const Graph = require('../src/');
+const generateMesh = require('../src/mesh');
 
 # Generate initial graph.
 let graph = new Graph();
@@ -48,7 +48,7 @@ npm run test
 
 ## Publishing
 
-This will publish `/dist` and `/lib` folders
+This will publish `/dist` and `/src` folders
 
 ```sh
 npm version minor|match|major

@@ -1,6 +1,6 @@
 'use strict';
-const Graph = require('../lib/');
-const generateMesh = require('../lib/mesh');
+const Graph = require('../src/');
+const generateMesh = require('../src/mesh');
 
 let graph = new Graph();
 generateMesh(graph, 10, 10, true);
